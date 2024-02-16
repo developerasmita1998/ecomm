@@ -1,0 +1,76 @@
+.container{
+background-color: aquamarine;
+flex:1;
+height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+.myheader{
+background-color:rgb(127, 212, 224);
+flex: 0.1;
+flex-direction: row;
+display: flex;
+justify-content: space-between;
+}
+.left-image{
+  background-color: blue;   
+ }
+ .right{
+ /* position: absolute;
+ right: 20px;
+ top: 5px; */
+ 
+ align-items: center;
+ display: flex;
+ margin-right: 10px;
+ color: white;
+ flex-direction: row;
+ 
+ }
+ .right1{
+ margin-right: 20px;
+ }
+ .right2{
+ 
+ }
+ .mybody{
+background-color:white;
+text-align: center;
+flex:0.8;
+}
+.mybody1{
+font-size: larger;
+font-weight: bold;
+margin-right: 60px;
+}
+.myemail{
+
+}
+.myemail1{
+
+}
+.mypassword{
+
+}
+.mypassword1{
+
+}
+.mybutton{
+  background-color: aqua;
+}
+.mybutton1{
+  background-color: rgb(129, 216, 227) ;
+}
+
+.myfooter{
+     background-color: rgb(129, 216, 227);
+
+flex:0.1;
+display: flex;
+color: white;
+flex-direction: row;
+justify-content: center;
+padding-top: 25px;
+}
+
