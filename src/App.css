@@ -1,10 +1,10 @@
+/* Login Page design */
 .container{
 background-color: aquamarine;
 flex:1;
 height: 100vh;
 display: flex;
 flex-direction: column;
-
 }
 .myheader{
 background-color:rgb(127, 212, 224);
@@ -17,60 +17,85 @@ justify-content: space-between;
   background-color: blue;   
  }
  .right{
- /* position: absolute;
- right: 20px;
- top: 5px; */
- 
  align-items: center;
  display: flex;
  margin-right: 10px;
  color: white;
  flex-direction: row;
- 
  }
  .right1{
  margin-right: 20px;
  }
  .right2{
- 
  }
- .mybody{
+.mybody{
 background-color:white;
 text-align: center;
 flex:0.8;
+padding-top:  80px;
+padding-right: 200px;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-left: 10px;
 }
 .mybody1{
 font-size: larger;
 font-weight: bold;
 margin-right: 60px;
+position: relative;
+right: 40px;
+margin-bottom: 5px;
 }
 .myemail{
 
 }
 .myemail1{
+border:1px solid powderblue;
+margin-bottom: 13px;
+font-size: xx-small;
+height: 17px;
+width: 167px;
 
 }
 .mypassword{
 
 }
 .mypassword1{
-
+  border:1px solid powderblue;
+height:17px;
+width:167px;
+font-size: xx-small;
 }
 .mybutton{
-  background-color: aqua;
+  margin-top: 15px;
 }
 .mybutton1{
-  background-color: red;
+  background-color:  rgb(127, 212, 224);
+  position: relative;
+  right:80px;
+  border: 1px solid black;
+  font-size: xx-small;
+height: 18px;
+width: 87px;
+margin-left: 70px;
 }
-
 .myfooter{
-     background-color: rgb(129, 216, 227);
-
+background-color: rgb(129, 216, 227);
 flex:0.1;
 display: flex;
-color: white;
+color: black;
 flex-direction: row;
 justify-content: center;
-padding-top: 25px;
+align-items: center;
 }
 
+
+
+
+
+/* //Now Register design should below */
