@@ -7,7 +7,7 @@ import Register from './screens/Register'
 
 
 function App() {
-  // return <Login />
+   //return <Login />
   return <Register />
 }
 

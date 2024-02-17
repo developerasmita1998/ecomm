@@ -6,10 +6,7 @@ function Register() {
     <div className="container">
         
         
-        yaha Register banaogi
-
-        ban jayega naa ?
-       hm 
+  
       
     </div>
   );

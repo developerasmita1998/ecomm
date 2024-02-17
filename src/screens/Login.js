@@ -1,5 +1,6 @@
 import React from 'react'
 import './../App.css';
+import myImg from './../assets/asmita.jpeg'
 
 function Login() {
   return (
@@ -8,12 +9,15 @@ function Login() {
       <div className='myheader'>
       <div class="left-image">
       <img
+      className='logo'
             alt='logo'
-             src={'./../assets/asmita.jpeg'} />
+            //src={require('./../assets/asmita.jpeg')}
+            src={myImg}
+              />
     </div>
     <div className='right'>
       <span className='right1'>Sign Up</span>
-      <span className='right2'>Lognin</span>
+      <span className='right2'>Login</span>
     
     </div>
 
@@ -33,7 +37,6 @@ function Login() {
 
       <div className='myfooter'>
         <h5>E-comm Dashboard</h5>
-        
       </div>
       
     </div>
